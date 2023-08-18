@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "npx tailwindcss -i ./public/css/input.css -o ./public/css/output.css --watch",
+    "build": "npx tailwindcss -i ./public/css/input.css -o ./public/css/output.css"
+  },
+  "devDependencies": {
+    "daisyui": "^3.5.1",
+    "tailwindcss": "^3.3.3"
+  }
+}
